@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<!-- Efectos de transición: fade,flip,flow,pop,slide,slidefade,slideup,slidedown,turn,none. -->
+<body>
+<div data-role="page" id="page1">
+  <div data-role="header">
+    <h1>Datos Generales</h1>
+  </div>
+
+   <div data-role="main" class="ui-content">
+     <img src="FB_IMG_1615266839973" width="70" height="80" >
+   <p>  Nombre:Maria Antonia Juan Hernandez</p>
+   <p> fecha: 27-02-00</p>
+<p> Edad: 20 años</p>
+
+<p> Gmail: 18690102@tecvalles.mx</p>
+    <p>Clic en el link y observa el efecto flip.</p>
+    <a href="#page2" data-transition="slidedown">Ir a la página 2</a>
+    <a href="#page2" class="ui-btn" data-transition="slideup">Siguiente</a>
+   </div>
+
+  <div data-role="footer">
+    <h1>no hay</h1>
+  </div>
+</div> 
+
+  
+<div data-role="page" id="page2">
+  <div data-role="header">
+    <h1>Estudios</h1>
+  </div>
+
+   <div data-role="main" class="ui-content">
+    <p > Estudie en: la primaria: Jose Loéz Portillo</p>
+    <p> Secundariae: Jesus Silva Herzog</p>
+    <p> Mas me gusta de la carrera es: el area de las matematicas</p>
+    <p>Click en el link para regresar <b>Nota</b>: observa el efecto.</p>
+    <a href="#page1" data-transition="turn">Regresa a la página 1</a>
+    <a href="#page3" class="ui-btn" data-transition="turn">pagina siguiente 1</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>no hay</h1>
+  </div>
+</div> 
+
+
+
+<div data-role="page" id="page3">
+  <div data-role="header">
+    <h1>Habilidades Extras </h1>
+
+  </div>
+
+   <div data-role="main" class="ui-content">
+    <h1> Baile</h1>
+    <h1> Ayudar </h1>
+    
+    <a href="#page2" data-transition="turn">Regresa a la página2 </a>
+    <a href="#page4" class="ui-btn" data-transition="turn">pagina siguiente 2</a>
+  </div>
+
+  <div data-role="footer">
+ <h1>no hay</h1>
+    
+  </div>
+</div> 
+
+
+
+
+
+<div data-role="page" id="page4">
+  <div data-role="header">
+    <h1>Pasatiempos:</h1>
+  </div>
+  <h1> Baile</h1>
+    <h1> la musica</h1>
+
+   <div data-role="main" class="ui-content">
+    <p>Click en el link para regresar <b>Nota</b>: observa el efecto.</p>
+    <a href="#page3" data-transition="turn">Regresa a la página 3</a>
+    <a href="#page5" class="ui-btn" data-transition="turn">Siguiente</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>no se me ocurre nada</h1>
+  </div>
+</div> 
+
+
+
+
+<div data-role="page" id="page5">
+  <div data-role="header">
+    <h1>
+Experiencia laboral:</h1>
+  </div>
+  <h2>Trabaje en una empresa de partes de carros</h2>
+
+   <div data-role="main" class="ui-content">
+    <p>Click en el link para regresar <b>Nota</b>: observa el efecto.</p>
+    <a href="#page4" data-transition="turn">Regresa a la página 4</a>
+    <a href="#page4" class="ui-btn" data-transition="turn">Anterior</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Sin palabras</h1>
+  </div>
+</div> 
+
+
+
+
+
+</body>
+</html>
